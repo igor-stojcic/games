@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+<head> 
+    <title>Memory Game</title> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="pyro.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="symbols.js"></script>
+    <script src="closeCards.js"></script>
+    <script src="newLevel.js"></script>
+</head>
+<body>
+    
+    <div id="try-again" class="bg-warning p-2 text-center"><p>Tray again</p></div>
+
+    <div id="start-counter" class="p-2 text-center"><p></p></div>
+
+    <div class="timer">
+        <div class="time"></div>
+    </div>
+
+    <div class="level font-weight-bolder text-center"></div>
+
+    <div class="start-btn congrat">START
+    MEMORY GAME</div>
+
+    <div id="wrapp" class="container-fluid"> 
+
+        <div class="card"> 
+
+            <div id="gameBox" class="image-grid-container"></div>
+
+        </div> 
+
+    </div>
+
+    <div class="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
+    </div>
+    
+    <script src="main.js"></script>
+</body> 
+</html> 

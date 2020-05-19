@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*background-image: url('img/background.gif');*/
+  background-color: #000;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+canvas {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.pyro {
+  display: none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    to { opacity: 1.0; }
+}                                                                                                                                                                                                                                  
+
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    to { opacity: 1.0; }
+}
+
+#play, #play-again {
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+
+  animation:fade 800ms infinite;
+  -webkit-animation:fade 800ms infinite;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#play-again {
+  display: none;
+}
+
+#player1, #player2 {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  user-select: none;
+}
+#player1 {
+  left: 0
+}
+#player2 {
+  right: 0;
+}
+.container{
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 8px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background: cadetblue;
+  color: white;
+  float: left;
+  border: 1px solid #DDD;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+  cursor: pointer;
+  user-select: none;
+}

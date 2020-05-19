@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#important{
+	border: 2px solid #000;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.nav-a{
+	margin: 0 auto;
+	text-align: center;
+	font-family: fantasy;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	font-size: 2em;
+	text-shadow: 0.5px 0.5px yellow;
+}
+#main{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#textHolder{
+	margin-top: 30px;
+	display: none;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	font-weight: 600;
+}
+#start{
+	font-size: 30px;
+	margin-top: 40px;
+	border-radius: 40px;
+	box-shadow: 0 0 8px #000;
+}
+.block{
+	height: 450px;
+	margin-top: 20px;
+	background: #ccccb3;
+	border: 1px solid #000;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.block-header{
+	height: 80px;
+	background: #ccccb3;
+	border-bottom: 0.5px dotted #000;
+}
+.block-header > h4{
+	font-family: fantasy;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	font-size: 1.9em;
+	text-align: center;
+	line-height: 60px;
+	text-shadow: 0.5px 0.5px yellow;
+}
+.block textarea{
+	background: #ffecb3;
+	height: 260px;
+	border-radius: 20px;
+	border: 0.5px dotted #000;
+	font-size: 1.2em;
+}
+.block-footer > button{
+	font-size: 20px;
+	font-weight: 600;
+}
+.block button{
+	box-shadow: 0 0 8px #000;
+	border-radius: 20px;
+}
+.computers{
+	color: #0000ff;
+}
