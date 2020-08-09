@@ -1,2 +1,2 @@
 # Games
-# This is old cult games for all
+# This is old cult games for everyone
